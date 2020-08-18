@@ -1,0 +1,44 @@
+body{
+    Font-size: 18px;
+    font-weight: 300, 400, 700;
+    font-family:[Public Sans](https://fonts.google.com/specimen/Public+Sans);
+}
+.heading{
+    height: 50px;
+    background: white;
+    border-bottom: 1px solid grey;
+}
+.logo{
+    margin:16px 0 16px 120px;
+}
+.links li a{
+    text-decoration: none;
+    color: hsl(220deg 2% 62%);
+
+}
+.links li a:hover{
+    text-decoration: underline;
+    color: lightgreen;
+
+}
+.links li{
+    list-style: none;
+    display: inline;
+    margin: 0 10px 0 10px;
+    color: hsl(220deg 2% 62%);
+}
+.linking{
+    margin: -60px 0 0 450px;
+}
+.link_ing{
+    float:right;
+    margin: -42px 220px 0 0;
+}
+.b_tn{
+    border-radius: 24px;
+    padding:6px 16px 6px 16px ;
+    background: hsl(159deg 61% 48%);
+    color: white;
+    border: hsl(159deg 61% 48%);
+
+} 
