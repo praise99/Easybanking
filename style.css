@@ -1,16 +1,29 @@
+
 body{
+    width: 100%;
+    margin-top: 0;
     Font-size: 18px;
     font-weight: 300, 400, 700;
-    position:absolute ;
+    /* position:absolute ; */
     font-family:public sans;
     background: hsl(0, 0%, 98%);
-    
-    
+    overflow-x: hidden;
+     
 }
+.container {
+    width: 100%;
+}
+
 .heading{
+    width: 100%;
+    margin-top: 0;
     height: 50px;
     background: white;
     border-bottom: 1px solid grey;
+    position: relative;
+    z-index: 3;
+    
+
 }
 .logo{
     margin:16px 0 16px 120px;
@@ -58,17 +71,22 @@ body{
 }
 
 .section-img{
-    margin-top:-500px ;
-    margin-left:710px ;
-    width: 70%;
+    margin-top:-800px ;
+    margin-left:500px ;
+    width: 95%;
+    z-index: 2;
+
    
     
 }
 .section-img2{
-    margin-top:-570px ;
-    margin-left:770px ;
+    /* margin-top:-570px ; */
+    margin-top: -120vh;
+    margin-left:600px ;
     width: 70%;
-    
+    position: absolute;
+    z-index: 2;
+
     
 }
 .title-title{
@@ -76,6 +94,8 @@ body{
     margin-left:135px ;
     margin-top:200px ;
 }
+
+
 .secondbtn{
     border-radius: 24px;
     padding:12px 16px 12px 16px ;
