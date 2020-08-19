@@ -1,5 +1,6 @@
 
 body{
+    width: 100%;
     margin-top: 0;
     Font-size: 18px;
     font-weight: 300, 400, 700;
@@ -8,6 +9,9 @@ body{
     background: hsl(0, 0%, 98%);
     overflow-x: hidden;
      
+}
+.container {
+    width: 100%;
 }
 
 .heading{
@@ -67,9 +71,11 @@ body{
 }
 
 .section-img{
-    margin-top:-500px ;
-    margin-left:710px ;
-    width: 70%;
+    margin-top:-800px ;
+    margin-left:500px ;
+    width: 95%;
+    z-index: 2;
+
    
     
 }
@@ -80,7 +86,6 @@ body{
     width: 70%;
     position: absolute;
     z-index: 2;
-    overflow-x: auto;
 
     
 }
@@ -89,9 +94,7 @@ body{
     margin-left:135px ;
     margin-top:200px ;
 }
-.img-wrapper {
-    overflow-x: hidden;
-}
+
 
 .secondbtn{
     border-radius: 24px;
