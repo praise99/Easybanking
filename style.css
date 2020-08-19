@@ -1,7 +1,11 @@
 body{
     Font-size: 18px;
     font-weight: 300, 400, 700;
-    font-family:[Public Sans](https://fonts.google.com/specimen/Public+Sans);
+    position:absolute ;
+    font-family:public sans;
+    background: hsl(0, 0%, 98%);
+    
+    
 }
 .heading{
     height: 50px;
@@ -42,3 +46,45 @@ body{
     border: hsl(159deg 61% 48%);
 
 } 
+.text-desc{
+    font-family:Public Sans;
+    margin-left:135px ;
+    margin-top:-20px ;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-around ;
+}
+
+.section-img{
+    margin-top:-500px ;
+    margin-left:710px ;
+    width: 70%;
+   
+    
+}
+.section-img2{
+    margin-top:-570px ;
+    margin-left:770px ;
+    width: 70%;
+    
+    
+}
+.title-title{
+    font-size: 50px;
+    margin-left:135px ;
+    margin-top:200px ;
+}
+.secondbtn{
+    border-radius: 24px;
+    padding:12px 16px 12px 16px ;
+    background: hsl(159deg 61% 48%);
+    color: white;
+    border: hsl(159deg 61% 48%);
+    margin: 20px 140px ;
+}
+
+
+
+
