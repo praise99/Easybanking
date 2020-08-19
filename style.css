@@ -1,16 +1,22 @@
+
 body{
+    margin-top: 0;
     Font-size: 18px;
     font-weight: 300, 400, 700;
     position:absolute ;
     font-family:public sans;
     background: hsl(0, 0%, 98%);
-    
-    
+     
 }
 .heading{
+    margin-top: 0;
     height: 50px;
     background: white;
     border-bottom: 1px solid grey;
+    position: relative;
+    z-index: 3;
+    
+
 }
 .logo{
     margin:16px 0 16px 120px;
@@ -38,6 +44,9 @@ body{
     float:right;
     margin: -42px 220px 0 0;
 }
+/* .img-wrapper {
+    z-index: -2;
+} */
 .b_tn{
     border-radius: 24px;
     padding:6px 16px 6px 16px ;
@@ -65,10 +74,12 @@ body{
     
 }
 .section-img2{
-    margin-top:-570px ;
-    margin-left:770px ;
+    /* margin-top:-570px ; */
+    margin-top: -120vh;
+    margin-left:600px ;
     width: 70%;
-    
+    position: absolute;
+    z-index: 2;
     
 }
 .title-title{
